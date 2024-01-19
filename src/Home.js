@@ -7,7 +7,7 @@ const Home = () => {
     const [carPosition, setCarPosition] = useState({ top: 0, left: 0 });
     const [carDirection, setCarDirection] = useState("N");
     const [rotation, setRotation] = useState(0);
-    const step = 10;
+    const step = 20;
 
     var drivePositions = {
         N: { ...carPosition, top: carPosition.top - step },
