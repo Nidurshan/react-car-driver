@@ -17,6 +17,9 @@
 .header:hover{
     transform: scale(1.2);
     transition: 0.5s;
-    background-color: blue;
+    background-color: black;
     color: white;
+}
+.header:hover .title-1{
+    color: rgb(51, 238, 255);
 }

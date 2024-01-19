@@ -25,21 +25,21 @@ body{
     transition: 0.5s;
 }
 .playground{
-    height: 1000px;
+    height: 100vh;
     width: 1400px;
     background-color: rgb(227, 227, 227);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    margin-left: 10.5rem;
+    margin-left: 10.2rem;
     margin-top: -28rem;
 }
 .playground .car-Container{
     height: 150px;
     width: 120px;
-    background: url(./mycar.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
